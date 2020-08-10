@@ -30,7 +30,7 @@ punctuation_entry.grid(row=3, column=1)
 
 length = Label(root, text="PASSWORD LENGTH: ").grid(row=4, column=0, pady=5)
 length_entry = Entry(root, text="")
-length_entry.grid(row=4, column=1)
+length_entry.grid(row=4, column=1, padx=5)
 
 o = Button(root, text="GENERATE PASSWORD", command=lambda: check_button(length_entry))\
     .grid(row=5, column=0, columnspan=2, pady=5)
